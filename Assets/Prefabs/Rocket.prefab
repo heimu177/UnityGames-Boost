@@ -15,8 +15,7 @@ GameObject:
   - component: {fileID: 1043216816}
   - component: {fileID: 1043216811}
   - component: {fileID: 49332215}
-  - component: {fileID: 49332222}
-  - component: {fileID: 3763759927573772531}
+  - component: {fileID: 2952825765805086978}
   m_Layer: 0
   m_Name: Rocket
   m_TagString: Untagged
@@ -130,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainThrust: 800
   rotationThrust: 100
+  mainEngine: {fileID: 8300000, guid: 3ec9387dffb51f445b72e8d060d46337, type: 3}
 --- !u!82 &49332215
 AudioSource:
   m_ObjectHideFlags: 0
@@ -140,7 +140,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 943cf4ade90860b4a899a54717fddeb3, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 0.8
@@ -226,30 +226,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!164 &49332222
-AudioReverbFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518435898342944181}
-  m_Enabled: 1
-  m_DryLevel: 0
-  m_Room: -1000
-  m_RoomHF: 0
-  m_DecayTime: 1.65
-  m_DecayHFRatio: 1.5
-  m_ReflectionsLevel: -1363
-  m_ReverbLevel: -1153
-  m_ReverbDelay: 0.012
-  m_Diffusion: 100
-  m_Density: 100
-  m_HFReference: 5000
-  m_RoomLF: 0
-  m_LFReference: 250
-  m_ReflectionsDelay: 0
-  m_ReverbPreset: 21
---- !u!114 &3763759927573772531
+--- !u!114 &2952825765805086978
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,3 +238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092bf146434bc20448cfc68bb4316798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoadDelay: 2
+  success: {fileID: 8300000, guid: ae2384aa7ce3bc54f8e7ab1fb6c3df37, type: 3}
+  crash: {fileID: 8300000, guid: 72a4c55005fc4ba4fa7abb72d44aef14, type: 3}
