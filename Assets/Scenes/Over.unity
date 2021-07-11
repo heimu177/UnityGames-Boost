@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!198 &560283583 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1709849010848665087, guid: 4981fdf224b20684b9c25a53cfe0a384, type: 3}
+  m_PrefabInstance: {fileID: 1518435898668204404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +304,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 2.277, y: 0, z: 0}
+--- !u!198 &997514658 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 752948864952534344, guid: 4981fdf224b20684b9c25a53cfe0a384, type: 3}
+  m_PrefabInstance: {fileID: 1518435898668204404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1738191028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -420,6 +430,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 394142533, guid: 4981fdf224b20684b9c25a53cfe0a384, type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 560283583}
+    - target: {fileID: 394142533, guid: 4981fdf224b20684b9c25a53cfe0a384, type: 3}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 997514658}
     - target: {fileID: 1518435898342944177, guid: 4981fdf224b20684b9c25a53cfe0a384, type: 3}
       propertyPath: m_RootOrder
       value: 5
